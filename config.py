@@ -38,6 +38,9 @@ FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1001987271131"
 FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002038066716"))
 
 
+# Channel Information
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/389577b231b79f5044713.jpg")
